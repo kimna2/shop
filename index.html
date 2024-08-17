@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+    <script src="js/moment.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-section">
+            <div class="search-bar">
+                <i class='bx bx-search-alt search-icon'></i>
+                <input type="text" name="search-city" id="search-input" placeholder="도시 이름...">
+            </div>
+            <div class="info-wrapper">
+                <p class="city-name">호찌민</p>
+                <p class="weather-state">흐림</p>
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                <p class="temperature">26</p>
+            </div>
+            
+        </div>
+        <div class="additional-section">
+            <div class="row">
+                <div class="item">
+                    <div class="label">일출</div>
+                    <div class="value sunrise">6:16</div>
+                </div>
+                <div class="item">
+                    <div class="label">일몰</div>
+                    <div class="value sunset">17:57</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">습도</div>
+                    <div class="value"><span class="humidity">73</span>%</div>
+                </div>
+                <div class="item">
+                    <div class="label">바람</div>
+                    <div class="value"><span class="wind-speed">5.54</span>km/h</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
